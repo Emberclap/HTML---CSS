@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&&amp;display=swap.');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css.);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20.5px/1.5 Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.site-main {
+
+}
+
+.main-container {
+    padding: 2em;
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic-container,
+.standart-container,
+.premium-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5em;
+    max-width: 520px;
+    margin: 0.7em;
+    background-color: white;
+}
+.basic-container,
+.premium-container{
+    height: 665px;
+}
+.standart-container{
+    height: 720px;
+}
+.main-container p {
+    padding: 0.5em 0em;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+.price{
+    color: #b4afaf;
+}
+.price-tag {
+    color: black;
+    font-weight: bold;
+    font-size: 4em;
+    padding: 3.1em 0em;
+}
+.month-price{
+    margin-bottom: 1em;
+    font-size: 0.7em;
+    opacity: 50%;
+}
+div button{
+    position: relative;
+    top:auto; left: 0%;
+}
+button{
+    display: block;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 0.5em;
+    padding: 1em 3em;
+}

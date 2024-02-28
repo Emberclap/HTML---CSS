@@ -1,0 +1,150 @@
+body {
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    background-color: #f8f8f8;
+    align-items: center;
+}
+
+.site-main {}
+
+.site-header {
+    padding: 1.5em;
+    display: flex;
+}
+
+.site-header p {
+    font-size: 33px;
+    font-weight: bold;
+
+}
+
+.site-nav {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: space-between;
+    padding-right: 2em;
+}
+
+.site-nav span {
+    border-left: 2px solid;
+    padding-top: 1rem;
+    padding-left: 1.5em;
+    font-weight: bold;
+    opacity: 50%;
+}
+
+header a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header ul li {
+    margin: 0.5px;
+    display: flex;
+    padding: 0.5em 1em;
+    background-color: rgb(204, 204, 204);
+    opacity: 70%;
+}
+
+header ul li:nth-child(1) {
+    background-color: rgb(107, 212, 177);
+    opacity: 100%;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+.main-section {
+    padding: 2em 4em;
+    text-align: center;
+    background-color: rgb(89, 212, 171);
+
+}
+
+p {
+    font-size: 0.8em;
+}
+
+article {
+    padding: 4em 1em;
+    display: flex;
+    background-color: dimgray;
+    justify-content: space-evenly;
+}
+
+article div {
+    display: flex;
+    margin: 1em;
+    text-align: center;
+    flex-direction: column;
+}
+
+main span {
+    color: white;
+    border-bottom: 2px solid;
+    padding: 1em;
+}
+
+main p {
+    padding: 0.5em;
+    color: rgb(71, 67, 67);
+}
+
+.middle-section {
+    background-color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.middle-section p {
+    font-size: 0.7em;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 1em;
+    padding: 0.5em 2em;
+    background-color: rgb(148, 47, 11);
+    color: white;
+}
+
+.last-container {
+
+    display: flex;
+    background-color: dimgray;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 3em 1em;
+    color: rgb(71, 67, 67);
+
+}
+
+.last-container p {
+    margin: 1em;
+}
+
+h4 {
+    padding-bottom: 0.5em;
+    color: white;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+    background-color: rgb(89, 212, 171);
+}
+
+footer span {
+    color: white;
+}

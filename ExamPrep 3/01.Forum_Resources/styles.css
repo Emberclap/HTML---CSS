@@ -1,0 +1,84 @@
+.site-main{
+     background-image: url(images/background.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.site-main{
+    padding: 1em 3em;
+    display: flex;
+}
+.verticle-articles{
+    display: flex;
+    flex-direction: column;
+}
+article{
+    display: flex;
+    margin: 1em;
+    background-color: white;
+    padding: 2em;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.image{
+    justify-content:  center;
+    align-items: end;
+    width: 60%;
+    height: auto;
+}
+article .Stanley .Friday{
+    display: flex;
+    justify-content: space-between;
+}
+article div{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.John{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: space-between;
+    
+}
+.verticle-articles article{
+    flex: 1 0 auto;
+    width: auto;
+    height: auto;
+
+}
+.image2 img{
+    width: 80px;
+    height: 80px;
+}
+.john-details{
+    border-top: 2px solid rgb(202, 213, 224); 
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.john-details div{
+    margin: 0.5 ;
+}
+.author{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.image2{
+    margin-right: 1em;
+}
+.marks{
+    width: 50px;
+    height: auto;
+}
+.position{
+    
+    font-size: 0.6em;
+}

@@ -1,0 +1,130 @@
+body{
+    display: flex;
+}
+header img{
+    position: absolute;
+    top: 2em; left: 2em;
+    width: 5%;
+    height: auto;
+
+}
+header{
+    height: 500px;
+    display: flex;
+    justify-content: space-between ;
+    background-image: url(images/background.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.site-header{
+
+    padding-top: 10em;
+    padding-left: 8em;
+    width: 40%;
+    color: white;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 0.3em;
+}
+header nav{
+    justify-content: flex-end;
+    margin-right: 2em;
+    margin-top: 2em;
+    display: flex;
+    list-style-type: none;
+}
+header a{
+    margin: 1em;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+main{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #fffef2;
+}
+.conteiner-topics{
+    
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.conteiner-topics div{
+    margin: 3em 1em;
+    width: 33%;
+}
+button{
+    margin-top: 2em;
+    padding: 0.5em 1em;
+    color: #B76E79;
+    background-color: #fffef2;
+    border: 2px solid;
+    border-color: #B76E79
+}
+.conteiner-sponsors{
+    border-top: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+.images img{
+   
+    border-radius: 50%;
+    background-color: lightgray;
+    padding: 1.5rem;
+    margin: 2em;
+}
+.conteiner-sponsors h2{
+    color:#B76E79;
+}
+.conteiner-sponsors p{
+    padding: 0em 6em;
+}
+footer{
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(16, 16, 44);
+} 
+footer nav{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+footer nav li{
+    text-decoration: none;
+    list-style-type: none;
+}
+footer nav li a{
+    font-size: 11px;
+    text-transform: uppercase;
+    color:#B76E79 ;
+    text-decoration: none;
+
+}
+.footer-footer{
+    padding: 1em;
+    padding-left: 14em;
+    background-color:  rgb(16, 16, 44);
+    color: #B76E79;
+    border-top: 1px solid #B76E79;
+}
+

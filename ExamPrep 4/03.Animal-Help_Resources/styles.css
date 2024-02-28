@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.5 "Arial", sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.header-nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    min-height: 110px;
+}
+
+.header-nav div {
+    margin-left: 2.5em;
+    font-weight: bold;
+}
+
+.header-nav nav ul {
+    display: flex;
+}
+
+.header-nav nav ul li {
+    text-decoration: none;
+    list-style: outside none;
+    margin-right: 1em;
+    font-weight: bold;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 5.25em;
+    background-color: #85DCFF;
+}
+
+.header-section h2 {
+    font-size: 2.1em;
+    margin-bottom: 1em;
+}
+
+.header-section p {
+    margin-bottom: 1em;
+}
+
+.header-section .header-img {
+    padding-left:3em;
+    min-width: 680px;
+}
+
+.header-section div {
+    max-width: 760px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-section .buttons {
+    display: flex;
+    flex: 1 0 100%
+}
+
+.header-section button {
+    align-items: flex-start;
+    font-weight: bold;
+    flex: 1 0 42%;
+    justify-content: left;
+    color: black;
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 0.5em;
+}
+
+.header-section button:nth-child(1) {
+    background-color: white;
+    margin-right: 1.5em;
+}
+
+.header-section button:nth-child(2) {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+article {
+    text-align: center;
+}
+
+article p:first-child {
+    font-size: 1.4em;
+    letter-spacing: 22%;
+    width: 730px;
+}
+
+article h2 {
+    padding: 1em;
+}
+
+.colums {
+    justify-content: space-between;
+    padding: 2em;
+    display: flex;
+}
+
+svg {
+    padding: 1em;
+    width: 201px;
+    height: 180px;
+}
+
+.colums div {
+    margin: 0em 2em;
+}
+
+.colums h3 {
+    padding-bottom: 1em;
+}
+
+.colums p {
+    max-width: 400px;
+}
+
+.animals {
+    min-height: 855px;
+    background-color: #85DCFF;
+}
+
+.animals h1 {
+    padding: 3em;
+}
+
+.animals ul {
+    margin: 1em;
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+}
+
+.animals ul li {
+    vertical-align: auto;
+    padding: 0 0em 1em 0;
+    text-align: left;
+    font-size: 1.4em;
+}
+
+.animals button {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    flex: 1 0 auto;
+    min-width: 15.5em;
+    padding: 1em 6em;
+    margin-top: 2em;
+    border-radius: 0.5em;
+}
+
+.animals-section {
+    align-items: center;
+    text-align: center;
+}
+
+.animals-section h1 {
+    margin: 0.7em 0;
+    font-size: 3.2em;
+}
+
+.animals-section div img {
+    max-width: 370px;
+    height: auto;
+
+}
+
+.image-container {
+    display: flex;
+    gap: 2em;
+    justify-content: space-around;
+    flex: 1 0 auto;
+    padding: 1em 2em;
+}
+
+.animal-care-section h2 {
+    text-align: center;
+    margin: 2em;
+}
+
+.animal-care-section div {
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container div {
+    max-width: 1450px;
+    margin: 1em;
+    border: 1px solid;
+    border-radius: 0.5em;
+    border-color: #ccc;
+}
+
+.container h4 {
+    background-color: #85DCFF;
+    padding: 1em;
+}
+
+.container p {
+    padding: 2em;
+}
+.footer-main-section{
+    margin-top: 6em;
+    display: flex;
+}
+.footer-image{
+    max-width: 960px;
+}
+.footer-main{
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+    flex: 1 0 auto;
+    margin-left: 1em;
+    padding: 4em;
+}
+.footer-main h2{
+    padding-bottom: 1em;
+    text-align: left;
+
+}
+.footer-main p{
+    text-align: left;
+    opacity: 70%;
+    font-size: 20px;
+}
+.footer-main form input{
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    text-align: left;
+    padding: 1em 1em;
+}
+.footer-main button{
+    color: white;
+    border: 1px solid;
+    border-color: black;
+    background-color: black;
+    border-radius: 0.5em;
+    max-width: 150px;
+    padding: 1em 2em;
+}
+.last-section{
+    padding: 1.5em;
+    margin: 0 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.last-section ul{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    
+}
+.last-section svg{
+    width: 70px;
+    height: auto;
+}
